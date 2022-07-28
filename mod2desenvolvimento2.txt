@@ -1,0 +1,16 @@
+print('sobre o veículo, informe:\n')
+rodas = int(input('quantidade de rodas: '))
+peso = float(input('peso bruto em kg: '))
+pessoas = int(input('quantidade de pessoas: '))
+if (rodas<4 and pessoas<3 and peso<3500):
+    print('categoria A')
+elif (rodas==4 and pessoas<=8 and peso<=3500):
+    print('categoria B')
+elif (rodas>=4 and peso>3500 and peso<=6000):
+    print('categoria C')
+elif (rodas>=4 and pessoas>8 and peso<=6000):
+    print('categoria D')
+elif (rodas>=4 and pessoas>8 and peso>6000):
+    print('categoria E')
+else:
+    print('informacões inválidas!')
