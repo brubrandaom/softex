@@ -1,0 +1,9 @@
+nome = input('nome: ')
+nota1 = float(input('1ª nota: '))
+nota2 = float(input('2ª nota: '))
+faltas = int(input('faltas: '))
+
+if ((nota1+nota2)/2<7 or faltas>3):
+    print(f'{nome}, você está reprovado!')
+elif ((nota1+nota2/2>=7)):
+    print(f'{nome}, você está aprovado!')
