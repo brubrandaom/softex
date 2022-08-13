@@ -1,0 +1,6 @@
+vetor = [1, 6, 8, 2, 3, 7, 5, 4, 10, 9]
+for i in range (1, 10):
+    for j in range (0, 10-i):
+        if vetor[j] > vetor[j+1]:
+            vetor[j], vetor[j+1] = vetor[j+1], vetor[j]
+print(vetor)
