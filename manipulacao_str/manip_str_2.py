@@ -1,0 +1,5 @@
+frase1 = input("Digite uma frase: ")
+palavra1 = input("Qual palavra deseja substituir? ")
+palavra2 = input("Por qual? ")
+frase2 = frase1.replace(palavra1, palavra2)
+print(f"Frase alterada: {frase2}")
